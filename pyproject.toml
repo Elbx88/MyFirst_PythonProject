@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pythonproject4"
+version = "0.1.0"
+description = ""
+authors = ["Elbx88 <elsz1997@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+streamlit = "^1.41.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
