@@ -69,7 +69,7 @@ def main():
     st.markdown("---")
 
     # Default API Key (replace with your own key!)
-    api_key = "YOUR_OPENWEATHERMAP_API_KEY"
+    api_key = "8960a7d651c4f421d47cc640cc3f0e23"
 
     # Fetch weather button
     if st.button("Get Weather"):
