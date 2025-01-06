@@ -102,7 +102,7 @@ def main():
                 # Display weather icon
                 with col2:
                     icon_url = f"http://openweathermap.org/img/wn/{weather_data['icon']}@2x.png"
-                    st.image(icon_url, caption="Weather Icon", use_column_width=True)
+                    st.image(icon_url, caption="Weather Icon", use_container_width=True)
 
                 # Display location on a map
                 st.map(pd.DataFrame({
