@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Elbx88 <elsz1997@gmail.com>"]
 readme = "README.md"
-
+packages = ["mount.src.myfirst_pythonproject"]
 [tool.poetry.dependencies]
 python = "^3.12"
 streamlit = "^1.41.1"
